@@ -45,6 +45,7 @@ fieldset{
 button{
     background-color: transparent;
     border:none;
+    cursor: pointer;
 }
 .blind{
     display: none;
