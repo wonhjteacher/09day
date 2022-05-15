@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
 html,body{
-    text-size-adjust:none;
     font-size:16px ;
+    font-family: 'Noto Sans kr',sans-serif;
 }
+*{-webkit-text-size-adjust:none;}
 a{display:block}
 body{overflow-x: hidden;}
 
@@ -131,3 +134,74 @@ body{overflow-x: hidden;}
     margin-top:11.66vw;line-height:13.35vw;
     font-size: 3.6vw;text-align: center;
 }
+
+/* 베스트메뉴 */
+.best-menu-area{background: #ebebeb;padding:9.166vw 4.444vw 7.777vw;}
+.best-menu-area img{width: 100%;}
+.best-menu-area .best-title{color: #36373b;font-size: 5.555vw;font-weight: 
+    500;margin-left:6.666vw;position: relative;padding-top: 5.833vw;}
+.best-menu-area .best-title::before{content: '';display: block;position: absolute;left:0;top:0px;height: 6px;width:10.277vw;background-color: #36373b;}
+.best-menu-area .best_title_sub{color:#5e6068;font-size: 3.888vw;padding-left:6.666vw;margin-top:3.888vw}
+.best-menu-area .best-menu-box{margin-top: 4.722vw;}
+.best-menu-area .best-list li img{width: 100%;}
+.best-menu-area .best-list .best-menu-txt{background-color: #fff;padding: 4.44vw 8.33vw;}
+.best-menu-area .best-list .best-menu-des1{color:#4b4e54;font-size: 5.555vw;font-weight: 500;margin-bottom: 4.444vw;}
+.best-menu-area .best-list .best-menu-des2{color:#606367;font-size: 3.333vw;line-height:1.5;word-break: keep-all;}
+.best-list-pager{text-align: center;margin-top: 6.944vw;}
+.best-list-pager button{width: 16px;height: 16px;border-radius:50%;background-color: #dddd;margin: 0 2.222vw;display: inline-block;text-indent: -9999px;font-size: 0;}
+.best-list-pager button.on{background-color: #fff;}
+
+/* 커피매칭 */
+.match-area{background: url(../img/match_bg.png) no-repeat top center /  cover;padding: 9.7vw 4.4vw;}
+.match-box{background: #fff;padding-bottom: 8.88vw;color:#575756}
+.match-box img{width: 100%;}
+.match-box .match-title{text-align: center;font-size: 10vw;margin-top: 6.388vw;}
+.match-box .match-txt{text-align: center;font-size:3.888vw;margin-top:32px}
+.match-box .match-quiz-btn{display: block;text-align: center;background-color: #00a1df;font-size: 4.444;width: 47.2vw;height: 15.5vw;margin: 11.11vw auto 0;line-height: 15.5vw;color:#fff}
+
+/*매장찾기 */
+.shop-area{padding:8.33vw 4.44vw;}
+
+.shop-area .shop-area-title{font-weight: 500;color:#00a1df;font-size:8.611vw;line-height:1.2;text-align: center;margin-bottom:8.888vw;}
+.shop-area .shop-area-title-sub{font-weight: 500;color:#666;font-size: 5vw;text-align: center;margin-bottom: 16.666vw;line-height: 1;}
+.shop-area dl{padding-left: 9.722vw;margin-bottom: 9.444vw;}
+.shop-area dt{color:#fff;padding: 1.666vw 2.5vw;font-size:5vw;font-weight: 700;background-color:#afafaf;text-align: center;margin-bottom: 4.722vw;}
+.shop-area dd{color:#666;font-size:4.166vw;font-weight: 700;}
+.shop-area .shop-list dt{width: 34.722vw}
+.shop-area .shop-time dt{width:22.5vw;}
+.shop-area .shop-list dd{float: left;height: 4.444vw;line-height: 1;padding-right:3.6111vw;margin-right:3.6111vw;position:relative}
+.shop-area .shop-list dd::after{content: '';position: absolute;right: 0;top:50%;transform: translateY(-50%);width: 1px;height:3.888vw;background-color:#36373b;}
+.shop-area .shop-list dd:last-child::after{display: none;}
+.shop-area .shop-time dd{line-height:4.444vw;height:4.444vw;}
+.shop-area .shop-time dd{line-height:4.444vw;height:4.444vw;}
+.shop-area .shop-time dd .time{font-weight: 400;}
+.shop-area .shop-time dd .day{position:relative;padding-right: 5.555vw;margin-right:4.166vw;}
+.shop-area .shop-time dd .day::after{content: '';position: absolute;right: 0;top:50%;transform: translateY(-50%);width: 1px;height:3.888vw;background-color:#36373b;}
+.shop-area .shop-time dd{margin-bottom: 16px;}
+.shop-area .shop-search-btn{display: block;width: 46.94vw;height: 15.83vw;line-height: 15.83vw;color:#fff;text-align: center;font-size: 4.44vw;background-color: #00a1df;margin: 0 auto 13.88vw;}
+
+.shop-list-box{margin: 0 3.888vw;}
+.shop-list-box li{position: relative;}
+.shop-list-box li img{width: 100%;}
+.shop-list-box li .shop-list-title{position: absolute;top:2.5vw;right:2.777vw;background-color: #00a1df;color:#fff;font-size: 2.777vw;padding:1.388vw 2.222vw;}
+
+/* footer */
+footer .policy-area{padding:2.222vw 0 ;background-color: #1da4d9;color:#fff;text-align: center;font-size: 3.333vw;line-height: 3.888vw;}
+footer .policy-area span{display: block;}
+footer .policy-area a{display: inline-block;padding-right:10px;margin-right: 10px;border-right: 1px solid #fff;}
+footer .policy-area a:last-child{padding-right:0;margin-right: 0;;border-right:none}
+
+footer .footer-menu-area{background-color: #363637;color:#fff;font-size: 12px;padding-top:8.888vw;
+    padding-left:  4.44vw}
+footer .footer-menu-area dl{float: left;margin-bottom: 9.444vw}
+footer .footer-menu-area dl:nth-of-type(1),
+footer .footer-menu-area dl:nth-of-type(4){
+    margin-right:5.555vw;
+}
+footer .footer-menu-area dl:nth-of-type(2){
+    margin-right:6.944vw;
+}
+footer .footer-menu-area dl dt{font-size: 3.888vw;font-weight: 700;color:#9bcbde;margin-bottom:10.278vw;}
+footer .footer-menu-area dl dd{margin-bottom:3.333vw ;font-size: 3.333vw;letter-spacing: -0.139vw;}
+
+footer address{text-align: center;color:#fff;height:8.333vw ;line-height: 8.333vw;background-color: #222;font-size: 2.777vw;font-style: normal;}
